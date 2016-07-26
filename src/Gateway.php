@@ -19,7 +19,7 @@ use Omnipay\Common\AbstractGateway;
  * <code>
  * // Create a gateway for the Pin REST Gateway
  * // (routes to GatewayFactory::create)
- * $gateway = Omnipay::create('PinGateway');
+ * $gateway = Omnipay::create('Pin');
  *
  * // Initialise the gateway
  * $gateway->initialize(array(
